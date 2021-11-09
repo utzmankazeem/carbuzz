@@ -1,0 +1,193 @@
+body {
+	font-family: Goudy Old Style;
+}
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.container-fluid {
+	padding: 3% 15% 5%;
+}
+
+h1 {
+	/*font-family:,Montserrat-Black, ubuntu san-serif;*/
+	font-family: broadway; 
+	font-size: 3.5em;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-family: Goudy Old Style;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: broadway;
+}
+
+p {
+	color: #8f8f8f;
+}
+/*Navigation Bar*/
+
+.navbar {
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+	font-family: Bodoni MT;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: Bodoni MT;
+}
+
+/*Download button*/
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+.title-image {
+	width: 30%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 20%;
+}
+
+/*Features Section*/
+
+#features {
+	padding: 7% 10%;
+	background-color: #fff;	
+	position: relative;
+	z-index: 1;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5px;
+}
+
+.icon {
+	color: #ef8172;
+	margin-bottom: 1rem;
+} 
+
+.icon:hover {
+	color: #ff4c68;
+}
+
+/*TEstimonials*/
+
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-image {
+	width: 10%;
+	height: 50px;
+	border-radius: 100%;
+	margin: 10% 10% 5%;
+}
+
+.carousel-item {
+	padding: 5% 15%;
+}
+
+#press {
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px
+}
+
+/*Pricing section */
+
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+.button {
+	width: 100%;
+}
+
+/* CTA Section*/
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 7% 15%;
+	text-align: center;
+}
+
+.cta-heading {
+	font-family: broadway; 
+	font-size: 3.5em;
+	line-height: 1.5em;
+}
+
+/* Footer */
+#footer{
+	padding: 7% 15%;
+	text-align: center; 
+}
+
+.social-icon {
+	margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
